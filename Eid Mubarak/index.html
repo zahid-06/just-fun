@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eid Mubarak Greeting Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Greeting card content-->
+    <div class="card">
+        <img src="eid temp.webp" alt="eid mubarak">
+        <h1>Eid Mubarak</h1>
+        <p class="message">May this eid bring peace, joy, and endless blessing to you and your family.</p>
+        <button onclick="changeMessage()">Click for Special Blessing</button>
+
+        <!-- Payment Section-->
+         <div class="payment-section">
+            <h2 class="message">Send Eidi 🎁</h2>
+            <p class="message">Scan the QR code  below to send your Eidi</p>
+            <img src="QR.jpg" alt="UPI QR Code">
+         </div>
+    </div> 
+    
+    <script>
+        function changeMessage() {
+            document.querySelector('.message').innerText = "Wishing you love, prosperity, and countless blessings on this special day. Eid Mubarak!";
+        }
+    </script>
+</body>
+
+<footer>Made with ❤️ by ZAHID</footer>
+</html>
